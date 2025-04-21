@@ -1,0 +1,48 @@
+[0.040s] Invoking command in '/home/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_practice_ws/install/status_display
+[0.082s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.634s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.762s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.776s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.802s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.060s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.069s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.737s] -- Found status_interfaces: 0.0.0 (/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[1.927s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.357s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.357s] -- Configured cppcheck include dirs: 
+[2.357s] -- Configured cppcheck exclude dirs and/or files: 
+[2.362s] -- Added test 'lint_cmake' to check CMake code style
+[2.367s] -- Added test 'uncrustify' to check C / C++ code style
+[2.367s] -- Configured uncrustify additional arguments: 
+[2.371s] -- Added test 'xmllint' to check XML markup files
+[2.376s] -- Configuring done
+[2.399s] -- Generating done
+[2.410s] -- Build files have been written to: /home/fishros/chapt3/topic_practice_ws/build/status_display
+[2.446s] Invoked command in '/home/fishros/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_practice_ws/install/status_display
+[2.452s] Invoking command in '/home/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_practice_ws/build/status_display -- -j1 -l1
+[2.657s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[7.406s] [100%] [32m[1mLinking CXX executable hello_qt[0m
+[9.559s] [100%] Built target hello_qt
+[9.606s] Invoked command in '/home/fishros/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_practice_ws/build/status_display -- -j1 -l1
+[9.648s] Invoking command in '/home/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt3/topic_practice_ws/build/status_display
+[9.683s] -- Install configuration: ""
+[9.685s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[9.697s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[9.704s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[9.704s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[9.704s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[9.705s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[9.705s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[9.705s] -- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[9.717s] Invoked command in '/home/fishros/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt3/topic_practice_ws/build/status_display

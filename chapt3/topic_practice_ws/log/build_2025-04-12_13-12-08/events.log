@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.005489] (-) JobUnselected: {'identifier': 'status_interfaces'}
+[0.005556] (-) JobUnselected: {'identifier': 'status_publisher'}
+[0.005582] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict()}
+[0.005604] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.042959] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.044846] (status_display) Command: {'cmd': ['/usr/bin/cmake', '/home/fishros/chapt3/topic_practice_ws/src/status_display', '-DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_practice_ws/install/status_display'], 'cwd': '/home/fishros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2505'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2254,unix/fishros-VirtualBox:/tmp/.ICE-unix/2254'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9eb31b_1772_4505_8b44_702944e36755'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-63e67843fe74dc86.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RWW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23f79e9b42.sock'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt3/topic_practice_ws/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.087838] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101551] (-) TimerEvent: {}
+[0.201951] (-) TimerEvent: {}
+[0.306778] (-) TimerEvent: {}
+[0.410554] (-) TimerEvent: {}
+[0.513421] (-) TimerEvent: {}
+[0.614008] (-) TimerEvent: {}
+[0.639739] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.718691] (-) TimerEvent: {}
+[0.768025] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.781904] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.807101] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.819006] (-) TimerEvent: {}
+[0.837805] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.898055] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.921757] (-) TimerEvent: {}
+[1.022679] (-) TimerEvent: {}
+[1.065179] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.074917] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.127640] (-) TimerEvent: {}
+[1.228918] (-) TimerEvent: {}
+[1.331686] (-) TimerEvent: {}
+[1.444004] (-) TimerEvent: {}
+[1.494990] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.545738] (-) TimerEvent: {}
+[1.650993] (-) TimerEvent: {}
+[1.742656] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[1.754115] (-) TimerEvent: {}
+[1.855130] (-) TimerEvent: {}
+[1.932859] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.959117] (-) TimerEvent: {}
+[2.063355] (-) TimerEvent: {}
+[2.168607] (-) TimerEvent: {}
+[2.269782] (-) TimerEvent: {}
+[2.362723] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.362951] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.363021] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.367578] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.370868] (-) TimerEvent: {}
+[2.372391] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.372567] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.376243] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.381454] (status_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.404397] (status_display) StdoutLine: {'line': b'-- Generating done\n'}
+[2.416015] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/fishros/chapt3/topic_practice_ws/build/status_display\n'}
+[2.451737] (status_display) CommandEnded: {'returncode': 0}
+[2.456934] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[2.457005] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/chapt3/topic_practice_ws/build/status_display', '--', '-j1', '-l1'], 'cwd': '/home/fishros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2505'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2254,unix/fishros-VirtualBox:/tmp/.ICE-unix/2254'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9eb31b_1772_4505_8b44_702944e36755'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-63e67843fe74dc86.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RWW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23f79e9b42.sock'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt3/topic_practice_ws/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[2.471095] (-) TimerEvent: {}
+[2.575824] (-) TimerEvent: {}
+[2.662908] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o\x1b[0m\n'}
+[2.677737] (-) TimerEvent: {}
+[2.778020] (-) TimerEvent: {}
+[2.882579] (-) TimerEvent: {}
+[2.982998] (-) TimerEvent: {}
+[3.084752] (-) TimerEvent: {}
+[3.185645] (-) TimerEvent: {}
+[3.289028] (-) TimerEvent: {}
+[3.392119] (-) TimerEvent: {}
+[3.493736] (-) TimerEvent: {}
+[3.595266] (-) TimerEvent: {}
+[3.702645] (-) TimerEvent: {}
+[3.802995] (-) TimerEvent: {}
+[3.904066] (-) TimerEvent: {}
+[4.008835] (-) TimerEvent: {}
+[4.112713] (-) TimerEvent: {}
+[4.214852] (-) TimerEvent: {}
+[4.317534] (-) TimerEvent: {}
+[4.419447] (-) TimerEvent: {}
+[4.525215] (-) TimerEvent: {}
+[4.627302] (-) TimerEvent: {}
+[4.730500] (-) TimerEvent: {}
+[4.831329] (-) TimerEvent: {}
+[4.938100] (-) TimerEvent: {}
+[5.039775] (-) TimerEvent: {}
+[5.141664] (-) TimerEvent: {}
+[5.246486] (-) TimerEvent: {}
+[5.348467] (-) TimerEvent: {}
+[5.454075] (-) TimerEvent: {}
+[5.556628] (-) TimerEvent: {}
+[5.658765] (-) TimerEvent: {}
+[5.762586] (-) TimerEvent: {}
+[5.864241] (-) TimerEvent: {}
+[5.967616] (-) TimerEvent: {}
+[6.068241] (-) TimerEvent: {}
+[6.177208] (-) TimerEvent: {}
+[6.278040] (-) TimerEvent: {}
+[6.380624] (-) TimerEvent: {}
+[6.481656] (-) TimerEvent: {}
+[6.584926] (-) TimerEvent: {}
+[6.690115] (-) TimerEvent: {}
+[6.790642] (-) TimerEvent: {}
+[6.893336] (-) TimerEvent: {}
+[6.998561] (-) TimerEvent: {}
+[7.099578] (-) TimerEvent: {}
+[7.201911] (-) TimerEvent: {}
+[7.303992] (-) TimerEvent: {}
+[7.411617] (status_display) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_qt\x1b[0m\n'}
+[7.411845] (-) TimerEvent: {}
+[7.514643] (-) TimerEvent: {}
+[7.615737] (-) TimerEvent: {}
+[7.719337] (-) TimerEvent: {}
+[7.820650] (-) TimerEvent: {}
+[7.927602] (-) TimerEvent: {}
+[8.028384] (-) TimerEvent: {}
+[8.130279] (-) TimerEvent: {}
+[8.231213] (-) TimerEvent: {}
+[8.333880] (-) TimerEvent: {}
+[8.436639] (-) TimerEvent: {}
+[8.540702] (-) TimerEvent: {}
+[8.641762] (-) TimerEvent: {}
+[8.749674] (-) TimerEvent: {}
+[8.851792] (-) TimerEvent: {}
+[8.955963] (-) TimerEvent: {}
+[9.058002] (-) TimerEvent: {}
+[9.159524] (-) TimerEvent: {}
+[9.260656] (-) TimerEvent: {}
+[9.368580] (-) TimerEvent: {}
+[9.469161] (-) TimerEvent: {}
+[9.564781] (status_display) StdoutLine: {'line': b'[100%] Built target hello_qt\n'}
+[9.571950] (-) TimerEvent: {}
+[9.610985] (status_display) CommandEnded: {'returncode': 0}
+[9.616886] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'install'}
+[9.653238] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/chapt3/topic_practice_ws/build/status_display'], 'cwd': '/home/fishros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2505'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2254,unix/fishros-VirtualBox:/tmp/.ICE-unix/2254'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9eb31b_1772_4505_8b44_702944e36755'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-63e67843fe74dc86.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1RWW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23f79e9b42.sock'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt3/topic_practice_ws/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[9.674750] (-) TimerEvent: {}
+[9.688817] (status_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.690904] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt\n'}
+[9.702083] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display\n'}
+[9.702277] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display\n'}
+[9.702346] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh\n'}
+[9.702472] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv\n'}
+[9.702550] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh\n'}
+[9.702615] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv\n'}
+[9.702678] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash\n'}
+[9.702741] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh\n'}
+[9.702805] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh\n'}
+[9.709706] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv\n'}
+[9.709913] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv\n'}
+[9.710053] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display\n'}
+[9.710156] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake\n'}
+[9.710227] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake\n'}
+[9.710291] (status_display) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml\n'}
+[9.720161] (status_display) CommandEnded: {'returncode': 0}
+[9.774905] (-) TimerEvent: {}
+[9.809850] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 0}
+[9.812204] (-) EventReactorShutdown: {}

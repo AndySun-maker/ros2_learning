@@ -1,0 +1,2 @@
+Invoking command in '/home/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_practice_ws/build/status_display -- -j1 -l1
+Invoked command in '/home/fishros/chapt3/topic_practice_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_practice_ws/build/status_display -- -j1 -l1

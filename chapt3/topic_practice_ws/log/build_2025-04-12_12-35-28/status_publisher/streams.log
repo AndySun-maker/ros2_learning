@@ -1,0 +1,38 @@
+[1.954s] Invoking command in '/home/fishros/chapt3/topic_practice_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces LD_LIBRARY_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fishros/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[2.804s] running egg_info
+[2.811s] creating ../../build/status_publisher/status_publisher.egg-info
+[2.811s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[2.811s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[2.811s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[2.811s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[2.811s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[2.821s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.829s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.829s] adding license file 'LICENSE'
+[2.836s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.836s] running build
+[2.836s] running build_py
+[2.836s] creating /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build
+[2.836s] creating /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib
+[2.836s] creating /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.836s] copying status_publisher/__init__.py -> /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.836s] copying status_publisher/sys_status_pub.py -> /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.844s] running install
+[2.844s] running install_lib
+[2.848s] creating /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[2.848s] copying /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[2.848s] copying /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[2.854s] byte-compiling /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[2.854s] byte-compiling /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[2.854s] running install_data
+[2.865s] creating /home/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index
+[2.865s] creating /home/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[2.865s] creating /home/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[2.865s] copying resource/status_publisher -> /home/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[2.865s] copying package.xml -> /home/fishros/chapt3/topic_practice_ws/install/status_publisher/share/status_publisher
+[2.865s] running install_egg_info
+[2.874s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[2.876s] running install_scripts
+[2.948s] Installing sys_status_pub script to /home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[2.950s] writing list of installed files to '/home/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log'
+[3.113s] Invoked command in '/home/fishros/chapt3/topic_practice_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces LD_LIBRARY_PATH=/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fishros/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/fishros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/fishros/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

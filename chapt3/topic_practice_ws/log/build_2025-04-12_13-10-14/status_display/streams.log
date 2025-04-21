@@ -1,0 +1,51 @@
+[0.030s] Invoking command in '/home/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_practice_ws/install/status_display
+[0.551s] -- The C compiler identification is GNU 11.4.0
+[0.910s] -- The CXX compiler identification is GNU 11.4.0
+[0.952s] -- Detecting C compiler ABI info
+[1.377s] -- Detecting C compiler ABI info - done
+[1.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.427s] -- Detecting C compile features
+[1.431s] -- Detecting C compile features - done
+[1.457s] -- Detecting CXX compiler ABI info
+[1.840s] -- Detecting CXX compiler ABI info - done
+[1.865s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.867s] -- Detecting CXX compile features
+[1.868s] -- Detecting CXX compile features - done
+[1.891s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.876s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.056s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.077s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.110s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.420s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.431s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.856s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.996s] -- Looking for pthread.h
+[4.220s] -- Looking for pthread.h - found
+[4.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.431s] -- Found Threads: TRUE  
+[4.670s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[4.670s]   By not providing "Findstatus_interpaces.cmake" in CMAKE_MODULE_PATH this
+[4.670s]   project has asked CMake to find a package configuration file provided by
+[4.670s]   "status_interpaces", but CMake did not find one.
+[4.670s] 
+[4.670s]   Could not find a package configuration file provided by "status_interpaces"
+[4.670s]   with any of the following names:
+[4.671s] 
+[4.671s]     status_interpacesConfig.cmake
+[4.671s]     status_interpaces-config.cmake
+[4.671s] 
+[4.671s]   Add the installation prefix of "status_interpaces" to CMAKE_PREFIX_PATH or
+[4.671s]   set "status_interpaces_DIR" to a directory containing one of the above
+[4.671s]   files.  If "status_interpaces" provides a separate development package or
+[4.671s]   SDK, be sure it has been installed.
+[4.675s] 
+[4.676s] [0m
+[4.676s] -- Configuring incomplete, errors occurred!
+[4.676s] See also "/home/fishros/chapt3/topic_practice_ws/build/status_display/CMakeFiles/CMakeOutput.log".
+[4.702s] Invoked command in '/home/fishros/chapt3/topic_practice_ws/build/status_display' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_practice_ws/install/status_display
