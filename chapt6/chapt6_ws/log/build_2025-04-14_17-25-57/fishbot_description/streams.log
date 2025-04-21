@@ -1,0 +1,29 @@
+[0.034s] Invoking command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt6/chapt6_ws/build/fishbot_description -- -j1 -l1
+[0.148s] Invoked command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt6/chapt6_ws/build/fishbot_description -- -j1 -l1
+[0.188s] Invoking command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt6/chapt6_ws/build/fishbot_description
+[0.228s] -- Install configuration: ""
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/launch
+[0.229s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[0.229s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/config
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/config/rviz
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/config/rviz/display_model.rviz
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.235s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.244s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.244s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.244s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.244s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.244s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[0.245s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.245s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.245s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.245s] -- Up-to-date: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.xml
+[0.248s] Invoked command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt6/chapt6_ws/build/fishbot_description

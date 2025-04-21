@@ -1,0 +1,6 @@
+Invoking command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_ws/install/demo_cpp_topic
+Invoked command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt3/topic_ws/install/demo_cpp_topic
+Invoking command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_ws/build/demo_cpp_topic -- -j1 -l1
+Invoked command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt3/topic_ws/build/demo_cpp_topic -- -j1 -l1
+Invoking command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt3/topic_ws/build/demo_cpp_topic
+Invoked command in '/home/fishros/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt3/topic_ws/build/demo_cpp_topic

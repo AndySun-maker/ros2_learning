@@ -1,0 +1,30 @@
+[1.643s] Invoking command in '/home/fishros/chapt5/chapt5_ws/src/demo_python_tf': PYTHONPATH=/home/fishros/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[2.315s] running egg_info
+[2.317s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[2.319s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[2.321s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[2.321s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[2.321s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[2.326s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[2.328s] adding license file 'LICENSE'
+[2.331s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[2.331s] running build
+[2.332s] running build_py
+[2.333s] copying demo_python_tf/dynamic_tf_broadcaster.py -> /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf
+[2.335s] copying demo_python_tf/tf_listener.py -> /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf
+[2.336s] running install
+[2.336s] running install_lib
+[2.339s] copying /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf/dynamic_tf_broadcaster.py -> /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf
+[2.340s] copying /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf/tf_listener.py -> /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf
+[2.342s] byte-compiling /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/dynamic_tf_broadcaster.py to dynamic_tf_broadcaster.cpython-310.pyc
+[2.344s] byte-compiling /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/tf_listener.py to tf_listener.cpython-310.pyc
+[2.345s] running install_data
+[2.345s] running install_egg_info
+[2.351s] removing '/home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[2.352s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info
+[2.355s] running install_scripts
+[2.412s] Installing dynamic_tf_broadcaster script to /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[2.412s] Installing static_tf_broadcaster script to /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[2.412s] Installing tf_listener script to /home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[2.422s] writing list of installed files to '/home/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log'
+[2.510s] Invoked command in '/home/fishros/chapt5/chapt5_ws/src/demo_python_tf' returned '0': PYTHONPATH=/home/fishros/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data

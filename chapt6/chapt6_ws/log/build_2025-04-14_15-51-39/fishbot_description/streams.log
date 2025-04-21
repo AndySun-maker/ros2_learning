@@ -1,0 +1,50 @@
+[0.050s] Invoking command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt6/chapt6_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt6/chapt6_ws/install/fishbot_description
+[0.757s] -- The C compiler identification is GNU 11.4.0
+[1.160s] -- The CXX compiler identification is GNU 11.4.0
+[1.241s] -- Detecting C compiler ABI info
+[1.581s] -- Detecting C compiler ABI info - done
+[1.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.583s] -- Detecting C compile features
+[1.588s] -- Detecting C compile features - done
+[1.620s] -- Detecting CXX compiler ABI info
+[1.967s] -- Detecting CXX compiler ABI info - done
+[1.973s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.973s] -- Detecting CXX compile features
+[1.973s] -- Detecting CXX compile features - done
+[2.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.215s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.689s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.693s] -- Added test 'lint_cmake' to check CMake code style
+[3.703s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.706s] -- Added test 'xmllint' to check XML markup files
+[3.717s] -- Configuring done
+[3.738s] -- Generating done
+[3.758s] -- Build files have been written to: /home/fishros/chapt6/chapt6_ws/build/fishbot_description
+[3.775s] Invoked command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt6/chapt6_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt6/chapt6_ws/install/fishbot_description
+[3.784s] Invoking command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt6/chapt6_ws/build/fishbot_description -- -j1 -l1
+[3.969s] Invoked command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt6/chapt6_ws/build/fishbot_description -- -j1 -l1
+[4.020s] Invoking command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt6/chapt6_ws/build/fishbot_description
+[4.061s] -- Install configuration: ""
+[4.061s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/launch
+[4.065s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[4.069s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf
+[4.070s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[4.071s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[4.073s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[4.080s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[4.080s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[4.081s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[4.084s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[4.085s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[4.086s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[4.089s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[4.090s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[4.090s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[4.092s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[4.094s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[4.095s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[4.099s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[4.101s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[4.104s] -- Installing: /home/fishros/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.xml
+[4.114s] Invoked command in '/home/fishros/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt6/chapt6_ws/build/fishbot_description

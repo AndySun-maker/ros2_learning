@@ -1,0 +1,579 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (chapt4_interfaces) JobQueued: {'identifier': 'chapt4_interfaces', 'dependencies': OrderedDict()}
+[0.000667] (demo_python_service) JobQueued: {'identifier': 'demo_python_service', 'dependencies': OrderedDict([('chapt4_interfaces', '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces')])}
+[0.001098] (chapt4_interfaces) JobStarted: {'identifier': 'chapt4_interfaces'}
+[0.024453] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'cmake'}
+[0.029495] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/fishros/chapt4/chapt4_ws/src/chapt4_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces'], 'cwd': '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt4/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2545'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2278,unix/fishros-VirtualBox:/tmp/.ICE-unix/2278'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/371781e2_d05c_4579_bee9_90c8963bf177'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3db382715af77144.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGDW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ada70e55c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[0.099553] (-) TimerEvent: {}
+[0.200633] (-) TimerEvent: {}
+[0.307372] (-) TimerEvent: {}
+[0.407989] (-) TimerEvent: {}
+[0.510024] (-) TimerEvent: {}
+[0.542373] (chapt4_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.610663] (-) TimerEvent: {}
+[0.724996] (-) TimerEvent: {}
+[0.795149] (chapt4_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.819284] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.827645] (-) TimerEvent: {}
+[0.946358] (-) TimerEvent: {}
+[1.047850] (-) TimerEvent: {}
+[1.072005] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.113308] (chapt4_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.113622] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.118712] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.129660] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.149473] (-) TimerEvent: {}
+[1.251634] (-) TimerEvent: {}
+[1.353675] (-) TimerEvent: {}
+[1.456203] (-) TimerEvent: {}
+[1.515682] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.556676] (-) TimerEvent: {}
+[1.560321] (chapt4_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.560501] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.560569] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.585550] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.659684] (-) TimerEvent: {}
+[1.760381] (-) TimerEvent: {}
+[1.860826] (-) TimerEvent: {}
+[1.999211] (-) TimerEvent: {}
+[2.105363] (-) TimerEvent: {}
+[2.112153] (chapt4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.223612] (-) TimerEvent: {}
+[2.327522] (-) TimerEvent: {}
+[2.409078] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.418130] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.430748] (-) TimerEvent: {}
+[2.437547] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.531291] (-) TimerEvent: {}
+[2.598357] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.632030] (-) TimerEvent: {}
+[2.720096] (chapt4_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.734204] (-) TimerEvent: {}
+[2.836175] (-) TimerEvent: {}
+[2.941123] (-) TimerEvent: {}
+[3.062688] (-) TimerEvent: {}
+[3.202376] (-) TimerEvent: {}
+[3.327845] (-) TimerEvent: {}
+[3.454802] (-) TimerEvent: {}
+[3.557444] (-) TimerEvent: {}
+[3.672469] (-) TimerEvent: {}
+[3.755726] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.772663] (-) TimerEvent: {}
+[3.882245] (-) TimerEvent: {}
+[4.015555] (-) TimerEvent: {}
+[4.121594] (-) TimerEvent: {}
+[4.228389] (-) TimerEvent: {}
+[4.349996] (-) TimerEvent: {}
+[4.459462] (-) TimerEvent: {}
+[4.579418] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.579610] (-) TimerEvent: {}
+[4.714313] (-) TimerEvent: {}
+[4.838575] (-) TimerEvent: {}
+[4.950104] (-) TimerEvent: {}
+[5.062118] (-) TimerEvent: {}
+[5.167647] (-) TimerEvent: {}
+[5.268956] (-) TimerEvent: {}
+[5.373017] (-) TimerEvent: {}
+[5.515148] (-) TimerEvent: {}
+[5.587363] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.629844] (-) TimerEvent: {}
+[5.634452] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.639563] (chapt4_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.731488] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.731665] (-) TimerEvent: {}
+[5.732035] (chapt4_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.732123] (chapt4_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.732191] (chapt4_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.782570] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.868775] (-) TimerEvent: {}
+[6.009521] (-) TimerEvent: {}
+[6.021848] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.137755] (-) TimerEvent: {}
+[6.198369] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.200724] (chapt4_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.202766] (chapt4_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.214004] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.236839] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.239090] (-) TimerEvent: {}
+[6.249785] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.339368] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.339607] (-) TimerEvent: {}
+[6.363324] (chapt4_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.374071] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.398064] (chapt4_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.445692] (-) TimerEvent: {}
+[6.477390] (chapt4_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.520457] (chapt4_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces\n'}
+[6.521166] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[6.521789] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'build'}
+[6.522532] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt4/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2545'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2278,unix/fishros-VirtualBox:/tmp/.ICE-unix/2278'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/371781e2_d05c_4579_bee9_90c8963bf177'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3db382715af77144.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGDW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ada70e55c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[6.546089] (-) TimerEvent: {}
+[6.640009] (chapt4_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.669926] (-) TimerEvent: {}
+[6.770617] (-) TimerEvent: {}
+[6.873446] (-) TimerEvent: {}
+[6.977652] (-) TimerEvent: {}
+[7.078282] (-) TimerEvent: {}
+[7.185011] (-) TimerEvent: {}
+[7.285422] (-) TimerEvent: {}
+[7.388908] (-) TimerEvent: {}
+[7.489642] (-) TimerEvent: {}
+[7.590205] (-) TimerEvent: {}
+[7.691003] (-) TimerEvent: {}
+[7.791571] (-) TimerEvent: {}
+[7.818098] (chapt4_interfaces) StdoutLine: {'line': b'[  3%] Built target chapt4_interfaces__cpp\n'}
+[7.842553] (chapt4_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.894043] (-) TimerEvent: {}
+[7.996528] (-) TimerEvent: {}
+[8.129258] (-) TimerEvent: {}
+[8.251069] (-) TimerEvent: {}
+[8.370752] (-) TimerEvent: {}
+[8.480053] (-) TimerEvent: {}
+[8.592409] (-) TimerEvent: {}
+[8.696097] (-) TimerEvent: {}
+[8.716233] (chapt4_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[8.796985] (-) TimerEvent: {}
+[8.904217] (-) TimerEvent: {}
+[9.009290] (-) TimerEvent: {}
+[9.109671] (-) TimerEvent: {}
+[9.216324] (-) TimerEvent: {}
+[9.319634] (-) TimerEvent: {}
+[9.423149] (-) TimerEvent: {}
+[9.527232] (-) TimerEvent: {}
+[9.627779] (chapt4_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.627949] (-) TimerEvent: {}
+[9.729625] (-) TimerEvent: {}
+[9.771624] (chapt4_interfaces) StdoutLine: {'line': b'[ 12%] Built target chapt4_interfaces__rosidl_typesupport_cpp\n'}
+[9.799846] (chapt4_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.832520] (-) TimerEvent: {}
+[9.932873] (-) TimerEvent: {}
+[10.035505] (-) TimerEvent: {}
+[10.139116] (-) TimerEvent: {}
+[10.242249] (-) TimerEvent: {}
+[10.343240] (-) TimerEvent: {}
+[10.445825] (-) TimerEvent: {}
+[10.548384] (-) TimerEvent: {}
+[10.654487] (-) TimerEvent: {}
+[10.755082] (-) TimerEvent: {}
+[10.875120] (-) TimerEvent: {}
+[10.952372] (chapt4_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o\x1b[0m\n'}
+[10.984733] (-) TimerEvent: {}
+[11.086230] (-) TimerEvent: {}
+[11.116865] (chapt4_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[11.197946] (-) TimerEvent: {}
+[11.225231] (chapt4_interfaces) StdoutLine: {'line': b'[ 22%] Built target chapt4_interfaces__rosidl_generator_c\n'}
+[11.250977] (chapt4_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.306963] (-) TimerEvent: {}
+[11.445347] (-) TimerEvent: {}
+[11.554504] (-) TimerEvent: {}
+[11.672826] (-) TimerEvent: {}
+[11.798872] (-) TimerEvent: {}
+[11.901280] (-) TimerEvent: {}
+[12.013950] (-) TimerEvent: {}
+[12.130575] (-) TimerEvent: {}
+[12.225295] (chapt4_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o\x1b[0m\n'}
+[12.236050] (-) TimerEvent: {}
+[12.354557] (-) TimerEvent: {}
+[12.456583] (-) TimerEvent: {}
+[12.557453] (-) TimerEvent: {}
+[12.661503] (-) TimerEvent: {}
+[12.762042] (-) TimerEvent: {}
+[12.865735] (-) TimerEvent: {}
+[12.967738] (-) TimerEvent: {}
+[13.069351] (-) TimerEvent: {}
+[13.161146] (chapt4_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.171328] (-) TimerEvent: {}
+[13.272386] (-) TimerEvent: {}
+[13.377421] (-) TimerEvent: {}
+[13.478880] (-) TimerEvent: {}
+[13.581653] (-) TimerEvent: {}
+[13.604213] (chapt4_interfaces) StdoutLine: {'line': b'[ 32%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.646548] (chapt4_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.695783] (-) TimerEvent: {}
+[13.806348] (-) TimerEvent: {}
+[13.916485] (-) TimerEvent: {}
+[14.045761] (-) TimerEvent: {}
+[14.170283] (-) TimerEvent: {}
+[14.270929] (-) TimerEvent: {}
+[14.372676] (-) TimerEvent: {}
+[14.474018] (-) TimerEvent: {}
+[14.577217] (-) TimerEvent: {}
+[14.678085] (-) TimerEvent: {}
+[14.745546] (chapt4_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[14.778550] (-) TimerEvent: {}
+[14.882429] (-) TimerEvent: {}
+[14.889361] (chapt4_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.983280] (-) TimerEvent: {}
+[15.000391] (chapt4_interfaces) StdoutLine: {'line': b'[ 41%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.023194] (chapt4_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.085152] (-) TimerEvent: {}
+[15.190241] (-) TimerEvent: {}
+[15.291157] (-) TimerEvent: {}
+[15.392038] (-) TimerEvent: {}
+[15.493132] (-) TimerEvent: {}
+[15.594450] (-) TimerEvent: {}
+[15.696368] (-) TimerEvent: {}
+[15.798714] (-) TimerEvent: {}
+[15.902965] (-) TimerEvent: {}
+[16.004338] (-) TimerEvent: {}
+[16.106368] (-) TimerEvent: {}
+[16.116657] (chapt4_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[16.192161] (chapt4_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.207457] (-) TimerEvent: {}
+[16.308679] (-) TimerEvent: {}
+[16.332016] (chapt4_interfaces) StdoutLine: {'line': b'[ 51%] Built target chapt4_interfaces__rosidl_typesupport_c\n'}
+[16.366543] (chapt4_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.410175] (-) TimerEvent: {}
+[16.512478] (-) TimerEvent: {}
+[16.614407] (-) TimerEvent: {}
+[16.716576] (-) TimerEvent: {}
+[16.820750] (-) TimerEvent: {}
+[16.922218] (-) TimerEvent: {}
+[17.025539] (-) TimerEvent: {}
+[17.126360] (-) TimerEvent: {}
+[17.228665] (-) TimerEvent: {}
+[17.330189] (-) TimerEvent: {}
+[17.434393] (-) TimerEvent: {}
+[17.535594] (-) TimerEvent: {}
+[17.544375] (chapt4_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o\x1b[0m\n'}
+[17.637639] (-) TimerEvent: {}
+[17.738553] (-) TimerEvent: {}
+[17.840429] (-) TimerEvent: {}
+[17.942676] (-) TimerEvent: {}
+[18.044558] (-) TimerEvent: {}
+[18.146720] (-) TimerEvent: {}
+[18.247851] (-) TimerEvent: {}
+[18.351405] (-) TimerEvent: {}
+[18.453569] (-) TimerEvent: {}
+[18.554429] (-) TimerEvent: {}
+[18.681118] (-) TimerEvent: {}
+[18.834714] (chapt4_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.834922] (-) TimerEvent: {}
+[18.936491] (-) TimerEvent: {}
+[19.037007] (-) TimerEvent: {}
+[19.139841] (-) TimerEvent: {}
+[19.197820] (chapt4_interfaces) StdoutLine: {'line': b'[ 61%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[19.225306] (chapt4_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.241485] (-) TimerEvent: {}
+[19.343752] (-) TimerEvent: {}
+[19.444870] (-) TimerEvent: {}
+[19.547500] (-) TimerEvent: {}
+[19.648437] (-) TimerEvent: {}
+[19.752359] (-) TimerEvent: {}
+[19.853657] (-) TimerEvent: {}
+[19.954744] (-) TimerEvent: {}
+[20.057354] (-) TimerEvent: {}
+[20.159297] (-) TimerEvent: {}
+[20.260015] (-) TimerEvent: {}
+[20.300857] (chapt4_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o\x1b[0m\n'}
+[20.364935] (-) TimerEvent: {}
+[20.465538] (-) TimerEvent: {}
+[20.566721] (-) TimerEvent: {}
+[20.668268] (-) TimerEvent: {}
+[20.769865] (-) TimerEvent: {}
+[20.871064] (-) TimerEvent: {}
+[20.976520] (-) TimerEvent: {}
+[21.077157] (-) TimerEvent: {}
+[21.178757] (-) TimerEvent: {}
+[21.279888] (-) TimerEvent: {}
+[21.381105] (-) TimerEvent: {}
+[21.429334] (chapt4_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.481882] (-) TimerEvent: {}
+[21.593172] (-) TimerEvent: {}
+[21.706159] (-) TimerEvent: {}
+[21.807284] (-) TimerEvent: {}
+[21.811202] (chapt4_interfaces) StdoutLine: {'line': b'[ 70%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[21.857914] (chapt4_interfaces) StdoutLine: {'line': b'[ 70%] Built target chapt4_interfaces\n'}
+[21.910252] (-) TimerEvent: {}
+[21.953219] (chapt4_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_copy_chapt4_interfaces\n'}
+[22.010393] (-) TimerEvent: {}
+[22.111800] (-) TimerEvent: {}
+[22.212558] (-) TimerEvent: {}
+[22.313537] (-) TimerEvent: {}
+[22.415017] (-) TimerEvent: {}
+[22.517553] (-) TimerEvent: {}
+[22.619185] (-) TimerEvent: {}
+[22.720551] (chapt4_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[22.720741] (-) TimerEvent: {}
+[22.722101] (chapt4_interfaces) StdoutLine: {'line': b'creating chapt4_interfaces.egg-info\n'}
+[22.722258] (chapt4_interfaces) StdoutLine: {'line': b'writing chapt4_interfaces.egg-info/PKG-INFO\n'}
+[22.722343] (chapt4_interfaces) StdoutLine: {'line': b'writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt\n'}
+[22.727411] (chapt4_interfaces) StdoutLine: {'line': b'writing top-level names to chapt4_interfaces.egg-info/top_level.txt\n'}
+[22.727729] (chapt4_interfaces) StdoutLine: {'line': b"writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[22.734357] (chapt4_interfaces) StdoutLine: {'line': b"reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[22.741543] (chapt4_interfaces) StdoutLine: {'line': b"writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[22.821441] (-) TimerEvent: {}
+[22.834662] (chapt4_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_chapt4_interfaces_egg\n'}
+[22.882785] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[22.922601] (-) TimerEvent: {}
+[23.025985] (-) TimerEvent: {}
+[23.126945] (-) TimerEvent: {}
+[23.229319] (-) TimerEvent: {}
+[23.330063] (-) TimerEvent: {}
+[23.431693] (-) TimerEvent: {}
+[23.536858] (-) TimerEvent: {}
+[23.637742] (-) TimerEvent: {}
+[23.738670] (-) TimerEvent: {}
+[23.841884] (-) TimerEvent: {}
+[23.943411] (-) TimerEvent: {}
+[24.044343] (-) TimerEvent: {}
+[24.148624] (-) TimerEvent: {}
+[24.249510] (-) TimerEvent: {}
+[24.350513] (-) TimerEvent: {}
+[24.451383] (-) TimerEvent: {}
+[24.555175] (-) TimerEvent: {}
+[24.657425] (-) TimerEvent: {}
+[24.696341] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces__py\n'}
+[24.751308] (chapt4_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o\x1b[0m\n'}
+[24.759652] (-) TimerEvent: {}
+[24.878013] (-) TimerEvent: {}
+[24.982050] (-) TimerEvent: {}
+[25.086408] (-) TimerEvent: {}
+[25.137588] (chapt4_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[25.200355] (-) TimerEvent: {}
+[25.268099] (chapt4_interfaces) StdoutLine: {'line': b'[ 80%] Built target chapt4_interfaces__rosidl_generator_py\n'}
+[25.311865] (-) TimerEvent: {}
+[25.346005] (chapt4_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.427495] (-) TimerEvent: {}
+[25.569185] (-) TimerEvent: {}
+[25.586605] (chapt4_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.681372] (-) TimerEvent: {}
+[25.704042] (chapt4_interfaces) StdoutLine: {'line': b'[ 87%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.754424] (chapt4_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.809363] (-) TimerEvent: {}
+[25.921722] (-) TimerEvent: {}
+[26.023045] (-) TimerEvent: {}
+[26.038901] (chapt4_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.116767] (chapt4_interfaces) StdoutLine: {'line': b'[ 93%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[26.135290] (-) TimerEvent: {}
+[26.186543] (chapt4_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.270151] (-) TimerEvent: {}
+[26.380968] (-) TimerEvent: {}
+[26.466492] (chapt4_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.481287] (-) TimerEvent: {}
+[26.583128] (-) TimerEvent: {}
+[26.618625] (chapt4_interfaces) StdoutLine: {'line': b'[100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext\n'}
+[26.659768] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[26.662746] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'install'}
+[26.684496] (-) TimerEvent: {}
+[26.689727] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces'], 'cwd': '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fishros/chapt4/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2545'), ('BUNDLED_DEBUGPY_PATH', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2278,unix/fishros-VirtualBox:/tmp/.ICE-unix/2278'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/371781e2_d05c_4579_bee9_90c8963bf177'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3db382715af77144.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGDW42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ada70e55c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/chapt4/chapt4_ws/build/chapt4_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[26.712826] (chapt4_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.713798] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces\n'}
+[26.714785] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.717762] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.717926] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h\n'}
+[26.717994] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.718060] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h\n'}
+[26.718158] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h\n'}
+[26.718225] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c\n'}
+[26.718288] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h\n'}
+[26.718351] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[26.718414] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.720288] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh\n'}
+[26.721133] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv\n'}
+[26.722077] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so\n'}
+[26.723711] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""\n'}
+[26.724001] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.727454] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.727619] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.727687] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[26.727756] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[26.727845] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.727920] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[26.727983] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.730465] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.730614] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.730682] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.730749] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[26.730813] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c\n'}
+[26.730877] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[26.730975] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.732206] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[26.732589] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.733526] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so\n'}
+[26.734541] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[26.734788] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.735127] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.735921] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp\n'}
+[26.736598] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.736967] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[26.737872] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[26.738224] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[26.741691] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[26.741836] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[26.741904] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[26.741969] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.742034] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.742097] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.743576] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps\n'}
+[26.743691] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.743768] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[26.743831] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.743895] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.743969] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[26.744037] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[26.746036] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[26.746177] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[26.747400] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[26.747487] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.747950] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[26.748367] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.748876] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so\n'}
+[26.750397] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[26.750907] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh\n'}
+[26.752639] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv\n'}
+[26.752788] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info\n'}
+[26.753323] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[26.754660] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[26.754774] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[26.755067] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[26.755524] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces\n'}
+[26.756171] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.756721] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.757626] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so\n'}
+[26.758601] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py\n'}
+[26.759452] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.760898] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.761026] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[26.761341] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.761811] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv\n'}
+[26.762547] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py\n'}
+[26.763147] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c\n'}
+[26.764753] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py\n'}
+[26.788189] (-) TimerEvent: {}
+[26.876720] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...\n"}
+[26.876910] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...\n"}
+[26.876979] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...\n"}
+[26.877044] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...\n"}
+[26.877154] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...\n"}
+[26.890502] (-) TimerEvent: {}
+[26.896691] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.897134] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.898377] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.899846] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.902993] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.903161] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.904862] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so\n'}
+[26.904945] (chapt4_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""\n'}
+[26.905730] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl\n'}
+[26.905860] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv\n'}
+[26.905926] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg\n'}
+[26.906368] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg\n'}
+[26.907247] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces\n'}
+[26.908452] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces\n'}
+[26.909429] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh\n'}
+[26.910227] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv\n'}
+[26.911501] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh\n'}
+[26.911871] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv\n'}
+[26.913156] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash\n'}
+[26.914546] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh\n'}
+[26.916335] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh\n'}
+[26.916459] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv\n'}
+[26.916995] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv\n'}
+[26.917115] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces\n'}
+[26.917189] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake\n'}
+[26.918664] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.918895] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.919689] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[26.920720] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.921327] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.922260] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[26.923272] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.924125] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake\n'}
+[26.925418] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.925789] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.926471] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.927948] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.928681] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[26.929008] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.930424] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake\n'}
+[26.931422] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.932105] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[26.932347] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.933593] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.933948] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.935221] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.936547] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.936702] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.937046] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake\n'}
+[26.938072] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake\n'}
+[26.940662] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml\n'}
+[26.945367] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[26.990747] (-) TimerEvent: {}
+[27.001456] (chapt4_interfaces) JobEnded: {'identifier': 'chapt4_interfaces', 'rc': 0}
+[27.003366] (demo_python_service) JobStarted: {'identifier': 'demo_python_service'}
+[27.091167] (-) TimerEvent: {}
+[27.191447] (-) TimerEvent: {}
+[27.293728] (-) TimerEvent: {}
+[27.394554] (-) TimerEvent: {}
+[27.497372] (-) TimerEvent: {}
+[27.599610] (-) TimerEvent: {}
+[27.700971] (-) TimerEvent: {}
+[27.804634] (-) TimerEvent: {}
+[27.906349] (-) TimerEvent: {}
+[28.008631] (-) TimerEvent: {}
+[28.109423] (-) TimerEvent: {}
+[28.212241] (-) TimerEvent: {}
+[28.314944] (-) TimerEvent: {}
+[28.417461] (-) TimerEvent: {}
+[28.601554] (-) TimerEvent: {}
+[28.703444] (-) TimerEvent: {}
+[28.804191] (-) TimerEvent: {}
+[28.908460] (-) TimerEvent: {}
+[29.009388] (-) TimerEvent: {}
+[29.061241] (demo_python_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_service', 'build', '--build-base', '/home/fishros/chapt4/chapt4_ws/build/demo_python_service/build', 'install', '--record', '/home/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fishros/chapt4/chapt4_ws/src/demo_python_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'fishros', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fishros', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/fishros/chapt4/chapt4_ws/src', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2545', 'BUNDLED_DEBUGPY_PATH': '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fishros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fishros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/fishros-VirtualBox:@/tmp/.ICE-unix/2278,unix/fishros-VirtualBox:/tmp/.ICE-unix/2278', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/371781e2_d05c_4579_bee9_90c8963bf177', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/fishros/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3db382715af77144.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VGDW42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3ada70e55c.sock', 'GNOME_TERMINAL_SERVICE': ':1.96', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fishros/chapt4/chapt4_ws/build/demo_python_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fishros/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:/home/fishros/chapt4/chapt4_ws/src/demo_python_service/install/demo_python_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/fishros/chapt4/chapt4_ws/install/chapt4_interfaces'}, 'shell': False}
+[29.112314] (-) TimerEvent: {}
+[29.213878] (-) TimerEvent: {}
+[29.315266] (-) TimerEvent: {}
+[29.418145] (-) TimerEvent: {}
+[29.521327] (-) TimerEvent: {}
+[29.626586] (-) TimerEvent: {}
+[29.727808] (-) TimerEvent: {}
+[29.832021] (-) TimerEvent: {}
+[29.846629] (demo_python_service) StdoutLine: {'line': b'running egg_info\n'}
+[29.847519] (demo_python_service) StdoutLine: {'line': b'creating ../../build/demo_python_service/demo_python_service.egg-info\n'}
+[29.848494] (demo_python_service) StdoutLine: {'line': b'writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO\n'}
+[29.849167] (demo_python_service) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt\n'}
+[29.850259] (demo_python_service) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt\n'}
+[29.853101] (demo_python_service) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt\n'}
+[29.853251] (demo_python_service) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt\n'}
+[29.853318] (demo_python_service) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[29.858153] (demo_python_service) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[29.858314] (demo_python_service) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[29.860315] (demo_python_service) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[29.861044] (demo_python_service) StdoutLine: {'line': b'running build\n'}
+[29.861448] (demo_python_service) StdoutLine: {'line': b'running build_py\n'}
+[29.862511] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build\n'}
+[29.862752] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib\n'}
+[29.863000] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service\n'}
+[29.863685] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/__init__.py -> /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service\n'}
+[29.864166] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_node.py -> /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service\n'}
+[29.866510] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/learn_face_detect.py -> /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service\n'}
+[29.868063] (demo_python_service) StdoutLine: {'line': b'running install\n'}
+[29.868449] (demo_python_service) StdoutLine: {'line': b'running install_lib\n'}
+[29.870557] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[29.871892] (demo_python_service) StdoutLine: {'line': b'copying /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[29.872055] (demo_python_service) StdoutLine: {'line': b'copying /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[29.873672] (demo_python_service) StdoutLine: {'line': b'copying /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[29.876634] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc\n'}
+[29.876783] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc\n'}
+[29.876851] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-310.pyc\n'}
+[29.877638] (demo_python_service) StdoutLine: {'line': b'running install_data\n'}
+[29.878101] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/ament_index\n'}
+[29.878714] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index\n'}
+[29.879354] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages\n'}
+[29.879469] (demo_python_service) StdoutLine: {'line': b'copying resource/demo_python_service -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages\n'}
+[29.880576] (demo_python_service) StdoutLine: {'line': b'copying package.xml -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service\n'}
+[29.881319] (demo_python_service) StdoutLine: {'line': b'creating /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource\n'}
+[29.881446] (demo_python_service) StdoutLine: {'line': b'copying resource/default.jpg -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource\n'}
+[29.883694] (demo_python_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.890368] (demo_python_service) StdoutLine: {'line': b'Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info\n'}
+[29.891829] (demo_python_service) StdoutLine: {'line': b'running install_scripts\n'}
+[29.935388] (-) TimerEvent: {}
+[29.959090] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_node script to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service\n'}
+[29.959277] (demo_python_service) StdoutLine: {'line': b'Installing learn_face_detect script to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service\n'}
+[29.959363] (demo_python_service) StdoutLine: {'line': b"writing list of installed files to '/home/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log'\n"}
+[30.038820] (-) TimerEvent: {}
+[30.073894] (demo_python_service) CommandEnded: {'returncode': 0}
+[30.088269] (demo_python_service) JobEnded: {'identifier': 'demo_python_service', 'rc': 0}
+[30.090523] (-) EventReactorShutdown: {}

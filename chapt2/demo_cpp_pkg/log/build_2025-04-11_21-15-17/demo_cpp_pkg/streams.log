@@ -1,0 +1,50 @@
+[0.057s] Invoking command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt2/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg
+[0.259s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.891s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.071s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.081s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.112s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.469s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.324s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.747s] -- Configured cppcheck include dirs: 
+[2.747s] -- Configured cppcheck exclude dirs and/or files: 
+[2.760s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.767s] -- Added test 'lint_cmake' to check CMake code style
+[2.778s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.808s] -- Added test 'uncrustify' to check C / C++ code style
+[2.809s] -- Configured uncrustify additional arguments: 
+[2.815s] -- Added test 'xmllint' to check XML markup files
+[2.827s] -- Configuring done
+[2.880s] -- Generating done
+[2.889s] -- Build files have been written to: /home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg
+[2.934s] Invoked command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/chapt2/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg
+[2.940s] Invoking command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg -- -j1 -l1
+[3.164s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[14.387s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[15.046s] [100%] Built target cpp_node
+[15.084s] Invoked command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg -- -j1 -l1
+[15.124s] Invoking command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg
+[15.158s] -- Install configuration: ""
+[15.163s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[15.166s] -- Set runtime path of "/home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[15.168s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[15.168s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[15.171s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[15.171s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[15.173s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[15.178s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[15.182s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[15.182s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[15.182s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[15.184s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[15.185s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[15.187s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[15.187s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[15.189s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[15.190s] -- Installing: /home/fishros/chapt2/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[15.199s] Invoked command in '/home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt2/demo_cpp_pkg/build/demo_cpp_pkg

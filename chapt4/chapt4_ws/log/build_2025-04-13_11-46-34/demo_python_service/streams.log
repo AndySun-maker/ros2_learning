@@ -1,0 +1,30 @@
+[2.567s] Invoking command in '/home/fishros/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/fishros/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[3.365s] running egg_info
+[3.366s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[3.374s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[3.374s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[3.374s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[3.374s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[3.374s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[3.379s] adding license file 'LICENSE'
+[3.379s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[3.380s] running build
+[3.380s] running build_py
+[3.405s] copying demo_python_service/face_detect_client_node.py -> /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[3.405s] copying demo_python_service/face_detect_node.py -> /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[3.406s] running install
+[3.406s] running install_lib
+[3.407s] copying /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[3.407s] copying /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[3.410s] byte-compiling /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[3.412s] byte-compiling /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[3.415s] running install_data
+[3.430s] running install_egg_info
+[3.430s] removing '/home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[3.430s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[3.478s] running install_scripts
+[3.508s] Installing face_detect_client_node script to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[3.511s] Installing face_detect_node script to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[3.511s] Installing learn_face_detect script to /home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[3.511s] writing list of installed files to '/home/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[3.615s] Invoked command in '/home/fishros/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/fishros/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
